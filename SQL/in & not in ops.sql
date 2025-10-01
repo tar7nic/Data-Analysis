@@ -1,0 +1,13 @@
+select * from employees
+where upper(email) in
+('PMARSH@CLASSICMODELCARS.COM',
+'GBONDUR@CLASSICMODELCARS.COM',
+'ABOW@CLASSICMODELCARS.COM'
+);
+
+select * from employees
+where upper(email) not in
+('PMARSH@CLASSICMODELCARS.COM',
+'GBONDUR@CLASSICMODELCARS.COM',
+'ABOW@CLASSICMODELCARS.COM'
+);
